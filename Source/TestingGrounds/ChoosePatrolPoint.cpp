@@ -3,7 +3,6 @@
 #include "ChoosePatrolPoint.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Classes/AIController.h"
-#include "PatrollingGuard.h"
 #include "PatrolRoute.h"
 
 EBTNodeResult::Type UChoosePatrolPoint::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
