@@ -16,6 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UPatrolRoute();
 
+	UFUNCTION(BlueprintCallable)
+	TArray<AActor*> GetTargetPoints() const;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

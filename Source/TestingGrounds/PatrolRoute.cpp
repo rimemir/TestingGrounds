@@ -14,6 +14,11 @@ UPatrolRoute::UPatrolRoute()
 }
 
 
+TArray<AActor*> UPatrolRoute::GetTargetPoints() const
+{
+	return TargetPoints;
+}
+
 // Called when the game starts
 void UPatrolRoute::BeginPlay()
 {
